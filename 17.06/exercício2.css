@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(65deg, #cce5ff, #ffccfe, #ffe6cc, #ccffcd) no-repeat;
+    font-family: "Playwrite SK", sans-serif;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    color: #9d5353;
+    text-shadow: 3px 3px 6px #c90f3e;
+}
+
+nav {
+    margin: 15px;
+    text-align: right;
+}
+
+.botao{
+    background-color: #ede6db;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+#botao1{
+    border-color: #8fbdd3;
+    transition: 0.4s;
+}
+
+#botao1:hover {
+    background-color: #8fbdd3;
+}
+
+#botao2{
+    border-color: #a2b38b;
+    transition: 0.4s;
+}
+
+#botao2:hover {
+    background-color: #a2b38b;
+}
+
+#botao3{
+    border-color: #9d5353;
+    transition: 0.4s;
+}
+
+#botao3:hover {
+    background-color: #9d5353;
+}
+
+div{
+    margin: 40px;
+    padding: 20px;
+}
+
+.um{
+    box-shadow: 5px 5px 5px rgba(199, 38, 159, 0.295);
+    color: #8fbdd3;
+    text-shadow: 0 0 3px #8fbdd3, 0 0 5px #8fbdd3;
+}
+
+.dois{
+    box-shadow: 5px -5px 5px rgba(199, 38, 159, 0.295);
+    color: white;
+    text-shadow: 1px 1px 2px #a2b38b, 0 0 25px #a2b38b, 0 0 5px #a2b38b;
+}
+
+.tres{
+    box-shadow: -5px 5px 5px rgba(199, 38, 159, 0.295);
+    color: #9d5353;
+    text-shadow: -1px 0 #9d5353, 0 1px #9d5353, 1px 0 #9d5353, 0 -1px #9d5353;
+}
+
+.quatro{
+    box-shadow: -5px -5px 5px rgba(199, 38, 159, 0.295);
+    text-shadow: 2px 2px 5px red;
+}
+
