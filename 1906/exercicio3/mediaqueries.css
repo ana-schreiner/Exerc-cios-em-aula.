@@ -1,0 +1,59 @@
+/*
+Defina media queries padrões para cada um dos breakpoints a seguir em um arquivo chamado mediaqueries.css: 
+
+Mobile (0 - 480px)
+
+Tablet (481px - 768px)
+
+Laptops (769px - 1279px)
+
+Desktop (1280px +)
+*/
+
+/* Mobile (0 - 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+/* Laptops (769px - 1279px) */
+@media (min-width: 769px) and (max-width: 1279px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* Desktop (1280px +) */
+@media (min-width: 1280px) {
+    body {
+        font-size: 20px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}

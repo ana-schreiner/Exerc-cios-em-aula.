@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marque sua consulta médica</title>
+</head>
+<body>
+    <h1>Marque sua consulta médica</h1>
+
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="seuEmail@email.com">
+        </div>
+
+        <div>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="consulta">Data da consulta:</label>
+            <input type="date" min="2024-06-13" id="consulta" name="consulta" required />
+        </div>
+
+        <div>
+            <label for="tipo">Especialidade:</label>
+            <select id="tipo" name="tipo" required>
+                <option disabled selected value="">Selecione uma opção</option>
+                <option>Cardiologia</option>
+                <option>Dermatologia</option>
+                <option>Pediatria</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Observações:</label>
+            <textarea id="obs" name="obs" placeholder="Deseja acrescentar algo?" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>

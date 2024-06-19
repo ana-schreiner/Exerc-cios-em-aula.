@@ -26,15 +26,20 @@ img{
     align-items: center;
 }
 
-button {
+.button-link {
     background-color: #cde54e;
     width: 80px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
+    text-decoration: none;
+    color: black;
     cursor: pointer;
     transition: 0.5s;
 }
 
-button:hover {
+.button-link:hover {
     filter: invert(1);
-  }
+}
